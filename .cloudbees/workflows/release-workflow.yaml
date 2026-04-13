@@ -10,7 +10,6 @@ metadata:
         - remote
 jobs:
   remote:
-    needs: normal
     env:
       SERVER: server
     with:
